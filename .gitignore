@@ -1,0 +1,20 @@
+# Build & publish artifacts
+bin/
+obj/
+publish/
+dist/
+*.zip
+
+# Local models & audio cache (downloaded on demand from UVR / HuggingFace)
+models/
+*.onnx
+*.krk
+*.log
+*.log.old
+
+# IDE / OS
+.vs/
+.vscode/
+*.user
+*.suo
+Thumbs.db
